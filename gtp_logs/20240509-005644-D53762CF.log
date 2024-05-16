@@ -1,0 +1,105 @@
+2024-05-09 00:56:44+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 8
+openclDeviceToUseThread0 = 0
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2024-05-09 00:56:44+0800: GTP Engine starting...
+2024-05-09 00:56:44+0800: KataGo v1.13.0
+2024-05-09 00:56:44+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2024-05-09 00:56:44+0800: Using 8 CPU thread(s) for search
+2024-05-09 00:56:45+0800: nnRandSeed0 = 8520305123556393744
+2024-05-09 00:56:45+0800: After dedups: nnModelFile0 = F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-05-09 00:56:45+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2024-05-09 00:56:45+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-05-09 00:56:45+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-05-09 00:56:45+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-05-09 00:56:45+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-05-09 00:56:45+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-05-09 00:56:45+0800: Loaded tuning parameters from: F:\unity_project\yiwu\Assets\StreamingAssets\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-05-09 00:56:46+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-05-09 00:56:46+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-05-09 00:56:48+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-05-09 00:56:48+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2024-05-09 00:56:48+0800: Initializing board with boardXSize 19 boardYSize 19
+2024-05-09 00:56:48+0800: Loaded config F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\gtp_custom.cfg
+2024-05-09 00:56:48+0800: Loaded model F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\model.bin
+2024-05-09 00:56:48+0800: Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-05-09 00:56:48+0800: GTP ready, beginning main protocol loop
+2024-05-09 00:56:48+0800: Controller: clear_board
+2024-05-09 00:56:48+0800: = 
+2024-05-09 00:56:48+0800: Controller: play b K10
+2024-05-09 00:56:48+0800: = 
+2024-05-09 00:56:48+0800: Controller: komi 7.5
+2024-05-09 00:56:48+0800: = 
+2024-05-09 00:56:48+0800: Controller: boardsize 19
+2024-05-09 00:56:48+0800: = 
+2024-05-09 00:56:48+0800: Controller: genmove w
+2024-05-09 00:56:53+0800: MoveNum: 1 HASH: 7BC546600F28A10FEF906A96B1D6386D
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . . . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . X1. . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . @ . . . . . . . . . . . . . . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi7.5
+Time taken: 5.016
+Root visits: 1283
+New playouts: 1283
+NN rows: 1210
+NN batches: 304
+NN avg batch size: 3.98026
+PV: C4 Q16 D16 Q3 F3 Q5 R17 Q17
+Tree:
+: T  33.96c W  33.54c S   0.63c ( +2.3 L  +1.6) N    1283  --  C4 Q16 D16 Q3 F3 Q5 R17
+---White(^)---
+C4  : T  34.70c W  34.18c S   0.67c ( +2.4 L  +1.6) LCB   34.16c P  3.24% WF 1475.7 PSV    1569 N     629  --  C4 Q16 D16 Q3 F3 Q5 R17 Q17
+D4  : T  34.12c W  33.75c S   0.66c ( +2.4 L  +1.6) LCB   33.38c P 13.06% WF 1244.0 PSV     548 N     519  --  D4 Q16 C16 Q3 F17 R6 F3 D16
+C5  : T  33.15c W  32.37c S   0.53c ( +2.2 L  +1.5) LCB   31.29c P  0.43% WF 100.7 PSV       7 N      43  --  C5 Q16 D3 R4 D16
+D5  : T  32.44c W  32.70c S   0.58c ( +2.3 L  +1.5) LCB   27.40c P  0.59% WF  57.7 PSV       6 N      27  --  D5 C3 E3 C5 C6 D6 D4
+C3  : T  32.15c W  31.93c S   0.59c ( +2.3 L  +1.6) LCB   27.40c P  0.60% WF  30.9 PSV       6 N      13  --  C3 Q16 D17 Q3
+C10 : T  27.51c W  28.07c S   0.30c ( +2.0 L  +1.4) LCB -122.64c P  0.02% WF   4.3 PSV       0 N       2  --  C10 D16
+C6  : T  26.70c W  26.73c S  -0.03c ( +1.7 L  +1.4) LCB -323.30c P  0.12% WF   1.9 PSV       0 N       1  --  C6
+D6  : T  24.31c W  24.45c S  -0.15c ( +1.6 L  +1.2) LCB -325.69c P  0.04% WF   1.8 PSV       0 N       1  --  D6
+C7  : T  25.34c W  25.41c S  -0.07c ( +1.6 L  +1.3) LCB -324.66c P  0.03% WF   1.9 PSV       0 N       1  --  C7
+D7  : T  24.44c W  24.59c S  -0.15c ( +1.6 L  +1.2) LCB -325.56c P  0.03% WF   1.8 PSV       0 N       1  --  D7
+
+2024-05-09 00:56:53+0800: = C4
+2024-05-09 00:57:09+0800: GPU 0 finishing, processed 1210 rows 304 batches
+2024-05-09 00:57:09+0800: All cleaned up, quitting

@@ -1,0 +1,144 @@
+2024-04-09 10:26:12+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 8
+openclDeviceToUseThread0 = 0
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2024-04-09 10:26:12+0800: GTP Engine starting...
+2024-04-09 10:26:12+0800: KataGo v1.13.0
+2024-04-09 10:26:12+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2024-04-09 10:26:12+0800: Using 8 CPU thread(s) for search
+2024-04-09 10:26:12+0800: nnRandSeed0 = 10367219346605946480
+2024-04-09 10:26:12+0800: After dedups: nnModelFile0 = F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-04-09 10:26:12+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2024-04-09 10:26:12+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-04-09 10:26:12+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-04-09 10:26:12+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-04-09 10:26:12+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-04-09 10:26:13+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-04-09 10:26:13+0800: Loaded tuning parameters from: F:\unity_project\yiwu\Assets\StreamingAssets\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-04-09 10:26:13+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-04-09 10:26:13+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-04-09 10:26:14+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-04-09 10:26:14+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2024-04-09 10:26:14+0800: Initializing board with boardXSize 19 boardYSize 19
+2024-04-09 10:26:14+0800: Loaded config F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\gtp_custom.cfg
+2024-04-09 10:26:14+0800: Loaded model F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\model.bin
+2024-04-09 10:26:14+0800: Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-04-09 10:26:14+0800: GTP ready, beginning main protocol loop
+2024-04-09 10:27:42+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1659790193.sgf 1
+2024-04-09 10:27:42+0800: Changing komi to 5.5
+2024-04-09 10:27:43+0800: GPU 0 finishing, processed 0 rows 0 batches
+2024-04-09 10:27:43+0800: Cleaned up old neural net and bot
+2024-04-09 10:27:43+0800: nnRandSeed0 = 13956116029236005119
+2024-04-09 10:27:43+0800: After dedups: nnModelFile0 = F:/unity_project/yiwu/Assets/StreamingAssets\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-04-09 10:27:43+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2024-04-09 10:27:43+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-04-09 10:27:43+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-04-09 10:27:43+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-04-09 10:27:43+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-04-09 10:27:43+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-04-09 10:27:44+0800: Loaded tuning parameters from: F:\unity_project\yiwu\Assets\StreamingAssets\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-04-09 10:27:44+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-04-09 10:27:44+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-04-09 10:27:46+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-04-09 10:27:46+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2024-04-09 10:27:46+0800: Initializing board with boardXSize 9 boardYSize 9
+2024-04-09 10:27:46+0800: = 
+2024-04-09 10:27:55+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1659790193.sgf 13
+2024-04-09 10:27:55+0800: = 
+2024-04-09 10:27:55+0800: Controller: lz-genmove_analyze maxmoves 6
+2024-04-09 10:28:01+0800: MoveNum: 12 HASH: 70030657B14D5FD129F3408E295FF47C
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . X . . . . .
+ 6 . . . . O3@ . . .
+ 5 . . . O X X O . .
+ 4 . . . . O1. X . .
+ 3 . . . . . . X . .
+ 2 . . . . X2. O . .
+ 1 . . . . . O . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi5.5
+Time taken: 5.047
+Root visits: 804
+New playouts: 804
+NN rows: 747
+NN batches: 186
+NN avg batch size: 4.01613
+PV: F6 D6 E7 D4 C7 D2 F3 E1 H2 B6 B7 H1 D3
+Tree:
+: T 106.53c W  99.34c S   7.24c (+14.7 L +14.3) N     804  --  F6 D6 E7 D4 C7 D2 F3
+---Black(^)---
+F6  : T 107.58c W  99.58c S   8.06c (+15.1 L +14.7) LCB  106.44c P 43.70% WF 2203.8 PSV    2185 N     672  --  F6 D6 E7 D4 C7 D2 F3 E1
+D6  : T 101.92c W  99.44c S   2.71c (+12.6 L +12.3) LCB   98.13c P 54.75% WF 282.0 PSV     262 N     105  --  D6 F4 F6 F3 D4 G6 F7 H3
+G6  : T  91.63c W  99.32c S  -6.91c ( +8.0 L  +7.8) LCB  -61.15c P  0.17% WF   7.1 PSV       0 N       2  --  G6 D6
+D4  : T  79.91c W  92.77c S -12.86c ( +4.6 L  +4.5) LCB -270.09c P  0.18% WF   1.3 PSV       0 N       1  --  D4
+C4  : T  79.25c W  89.59c S -10.34c ( +5.4 L  +5.2) LCB -270.75c P  0.10% WF   1.0 PSV       0 N       1  --  C4
+C3  : T  56.48c W  69.95c S -13.47c ( +3.9 L  +3.6) LCB -293.52c P  0.09% WF   0.7 PSV       0 N       1  --  C3
+F4  : T  88.19c W  98.23c S -10.04c ( +6.1 L  +6.1) LCB -261.81c P  0.08% WF   2.2 PSV       0 N       1  --  F4
+H5  : T  87.73c W  97.47c S  -9.73c ( +6.1 L  +6.0) LCB -262.27c P  0.07% WF   1.9 PSV       0 N       1  --  H5
+D3  : T  45.04c W  59.88c S -14.84c ( +3.2 L  +2.9) LCB -304.96c P  0.07% WF   0.6 PSV       0 N       1  --  D3
+B5  : T  56.19c W  69.34c S -13.15c ( +3.7 L  +3.3) LCB -293.81c P  0.07% WF   0.7 PSV       0 N       1  --  B5
+
+2024-04-09 10:28:01+0800: = play F6
+2024-04-09 10:28:36+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1659790193.sgf 25
+2024-04-09 10:28:36+0800: = 
+2024-04-09 10:28:36+0800: Controller: lz-genmove_analyze maxmoves 6
+2024-04-09 10:28:41+0800: MoveNum: 24 HASH: 5DA8DE1B8F2D6AC0D78DEA55C308829B
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . @ . . . . .
+ 7 . . . X . . O . .
+ 6 . O . X O O . . .
+ 5 . O1X . X X O . .
+ 4 . O3. X . X X . .
+ 3 . . . . X . X . .
+ 2 . . . . X X2O . .
+ 1 . . . . . O . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi5.5
+Time taken: 5.032
+Root visits: 957
+New playouts: 957
+NN rows: 800
+NN batches: 200
+NN avg batch size: 4
+PV: D8 C2 H5 H6 F8 H4 G6 D2 E1
+Tree:
+: T 120.65c W  99.84c S  20.14c (+28.3 L +28.3) N     957  --  D8 C2 H5 H6 F8 H4 G6
+---Black(^)---
+D8  : T 121.26c W  99.85c S  20.70c (+28.4 L +28.5) LCB  120.22c P 18.56% WF 2233.3 PSV    3769 N     443  --  D8 C2 H5 H6 F8 H4 G6 D2
+H5  : T 120.81c W  99.86c S  20.41c (+28.7 L +28.6) LCB  119.51c P 43.11% WF 1934.0 PSV    1935 N     375  --  H5 H6 F8 H4 G6 E8 D8 G5
+F8  : T 119.11c W  99.81c S  18.36c (+27.5 L +27.5) LCB  115.66c P 13.49% WF 238.7 PSV     203 N      54  --  F8 E8 D8 G8 H5 F9
+B2  : T 118.98c W  99.84c S  18.43c (+27.2 L +26.9) LCB  115.82c P 10.96% WF 217.9 PSV     157 N      45  --  B2 C2 C3 B3 D2 C8
+C3  : T 117.09c W  99.80c S  16.04c (+25.9 L +25.6) LCB  111.12c P  4.31% WF  64.2 PSV      35 N      15  --  C3 B3 D8 H5 B2 B8 C8 B9
+C2  : T 113.43c W  99.80c S  13.30c (+24.4 L +24.2) LCB   97.73c P  3.10% WF  28.4 PSV      14 N       7  --  C2 B8 C8
+B7  : T 111.82c W  99.59c S  12.66c (+24.0 L +24.3) LCB   67.84c P  2.23% WF  17.8 PSV       8 N       4  --  B7 E8
+C8  : T 115.80c W  99.51c S  16.30c (+26.3 L +26.8) LCB  106.97c P  1.00% WF  44.6 PSV       6 N      10  --  C8 C2 H5 H8
+H8  : T 110.32c W  99.98c S  10.34c (+22.8 L +22.1) LCB -239.68c P  1.00% WF   3.1 PSV       3 N       1  --  H8
+B1  : T 108.95c W  99.99c S   8.96c (+22.0 L +21.5) LCB -241.05c P  0.35% WF   2.9 PSV       1 N       1  --  B1
+
+2024-04-09 10:28:41+0800: = play D8

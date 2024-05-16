@@ -1,0 +1,144 @@
+2024-03-18 19:39:23+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 8
+openclDeviceToUseThread0 = 0
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2024-03-18 19:39:23+0800: GTP Engine starting...
+2024-03-18 19:39:23+0800: KataGo v1.13.0
+2024-03-18 19:39:23+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2024-03-18 19:39:23+0800: Using 8 CPU thread(s) for search
+2024-03-18 19:39:23+0800: nnRandSeed0 = 7457955447474359354
+2024-03-18 19:39:23+0800: After dedups: nnModelFile0 = F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-03-18 19:39:23+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2024-03-18 19:39:24+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-18 19:39:24+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-03-18 19:39:24+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-03-18 19:39:24+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-18 19:39:24+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-03-18 19:39:24+0800: Loaded tuning parameters from: F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-03-18 19:39:24+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-03-18 19:39:24+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-18 19:39:26+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-03-18 19:39:26+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2024-03-18 19:39:26+0800: Initializing board with boardXSize 19 boardYSize 19
+2024-03-18 19:39:26+0800: Loaded config F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\gtp_custom.cfg
+2024-03-18 19:39:26+0800: Loaded model F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin
+2024-03-18 19:39:26+0800: Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-18 19:39:26+0800: GTP ready, beginning main protocol loop
+2024-03-18 19:39:29+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1701255612.sgf 1
+2024-03-18 19:39:29+0800: Changing komi to 5.5
+2024-03-18 19:39:29+0800: GPU 0 finishing, processed 0 rows 0 batches
+2024-03-18 19:39:29+0800: Cleaned up old neural net and bot
+2024-03-18 19:39:29+0800: nnRandSeed0 = 8272536671579749616
+2024-03-18 19:39:29+0800: After dedups: nnModelFile0 = F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-03-18 19:39:29+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2024-03-18 19:39:30+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-18 19:39:30+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-03-18 19:39:30+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-03-18 19:39:30+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-18 19:39:30+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-03-18 19:39:30+0800: Loaded tuning parameters from: F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-03-18 19:39:30+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-03-18 19:39:30+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-18 19:39:32+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-03-18 19:39:32+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2024-03-18 19:39:32+0800: Initializing board with boardXSize 9 boardYSize 9
+2024-03-18 19:39:32+0800: = 
+2024-03-18 19:39:35+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1701255612.sgf 6
+2024-03-18 19:39:35+0800: = 
+2024-03-18 19:39:35+0800: Controller: lz-genmove_analyze maxmoves 6
+2024-03-18 19:39:40+0800: MoveNum: 5 HASH: FFE96295C396DA517064CFFB0FD39D37
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . X . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . O O2. . .
+ 4 . . . . . . . . .
+ 3 . . X1. @ . X3. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi5.5
+Time taken: 5
+Root visits: 3954
+New playouts: 3954
+NN rows: 2538
+NN batches: 636
+NN avg batch size: 3.99057
+PV: E3 D4 F3 H5 H4 G4 G5 J4 D7 D6 H6 H3 C8 E7 D8 C6 E6 H7 B7 B6 J6 F7 G6 B8 G7
+Tree:
+: T -43.28c W -41.03c S  -2.24c ( -2.0 L  -1.6) N    3954  --  E3 D4 F3 H5 H4 G4 G5
+---White(^)---
+E3  : T -41.17c W -39.17c S  -2.19c ( -2.0 L  -1.7) LCB  -45.40c P 37.91% WF 2214.4 PSV    2174 N    3658  --  E3 D4 F3 H5 H4 G4 G5 J4
+E7  : T -59.92c W -59.04c S  -1.63c ( -1.5 L  -1.0) LCB  -77.44c P 17.70% WF  79.6 PSV      90 N     120  --  E7 C5 D4 C4 G4 H4 H5 F4
+C5  : T -66.99c W -57.21c S  -3.72c ( -2.7 L  -2.1) LCB  -85.78c P 21.70% WF  66.6 PSV      82 N     100  --  C5 D4 C6 E7 F3 F2 E3 E2
+F3  : T -77.71c W -71.60c S  -3.58c ( -2.5 L  -1.9) LCB  -93.05c P 11.12% WF  23.7 PSV      30 N      32  --  F3 F2 E7 C5 E2 E3 F4 G2
+F2  : T -51.99c W -49.49c S  -2.21c ( -1.9 L  -1.3) LCB  -75.09c P  2.15% WF  19.3 PSV      17 N      24  --  F2 H5 C5 D4 D5
+D3  : T -90.17c W -82.19c S  -5.20c ( -3.3 L  -2.3) LCB -134.72c P  2.26% WF   3.8 PSV       4 N       4  --  D3 D4 F3
+D7  : T -79.59c W -73.94c S  -3.40c ( -2.4 L  -1.4) LCB -128.71c P  1.45% WF   4.0 PSV       3 N       4  --  D7 C6 G4
+G4  : T -77.02c W -72.92c S  -3.27c ( -2.3 L  -2.1) LCB -135.94c P  1.30% WF   3.8 PSV       3 N       4  --  G4 F3 D4
+C6  : T -88.19c W -80.15c S  -4.42c ( -2.9 L  -1.8) LCB -173.50c P  1.83% WF   3.4 PSV       3 N       3  --  C6 D6 D5
+C4  : T -83.28c W -79.32c S  -3.96c ( -2.6 L  -1.4) LCB -433.28c P  0.70% WF   1.3 PSV       1 N       1  --  C4
+
+2024-03-18 19:39:40+0800: = play E3
+2024-03-18 19:39:45+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1701255612.sgf 6
+2024-03-18 19:39:45+0800: = 
+2024-03-18 19:39:45+0800: Controller: lz-genmove_analyze maxmoves 6
+2024-03-18 19:39:50+0800: MoveNum: 5 HASH: FFE96295C396DA517064CFFB0FD39D37
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . X . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . O O2. . .
+ 4 . . . . . . . . .
+ 3 . . X1. @ . X3. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi5.5
+Time taken: 5
+Root visits: 9145
+New playouts: 9145
+NN rows: 2541
+NN batches: 638
+NN avg batch size: 3.98276
+PV: E3 D4 F3 H5 H4 D6 H6 G6 G7 G5 G4 F6 E6 F7 D5 C5 D7 C6 H7 J5 E7 G8 H8 E8 D8
+Tree:
+: T -49.52c W -47.52c S  -2.60c ( -2.1 L  -1.6) N    9145  --  E3 D4 F3 H5 H4 D6 H6
+---White(^)---
+E3  : T -47.91c W -46.08c S  -2.57c ( -2.1 L  -1.6) LCB  -50.97c P 37.91% WF 4944.7 PSV    4857 N    8038  --  E3 D4 F3 H5 H4 D6 H6 G6
+E7  : T -53.64c W -52.19c S  -2.17c ( -1.8 L  -1.4) LCB  -62.34c P 17.70% WF 463.5 PSV     465 N     737  --  E7 C5 D4 H5 C4 B4 B3 B5
+C5  : T -77.31c W -65.99c S  -4.72c ( -3.2 L  -2.6) LCB  -90.25c P 21.70% WF 100.4 PSV     133 N     155  --  C5 D4 C6 E7 F3 F2 E3 E2
+F3  : T -68.23c W -66.07c S  -3.35c ( -2.4 L  -1.7) LCB  -81.84c P 11.12% WF  82.6 PSV      96 N     112  --  F3 F2 C5 F7 E2 E3 D3 F4
+F2  : T -57.11c W -54.33c S  -2.66c ( -2.2 L  -1.4) LCB  -75.34c P  2.15% WF  36.1 PSV      38 N      43  --  F2 H5 C5 D4 D5 F3 E7 E8
+D7  : T -59.69c W -60.73c S  -2.28c ( -1.9 L  -1.1) LCB  -77.33c P  1.45% WF  20.7 PSV      20 N      24  --  D7 D6 E7 C6 G4 E6 F6
+D3  : T -83.17c W -77.30c S  -4.84c ( -3.1 L  -2.3) LCB -113.10c P  2.26% WF   9.0 PSV      11 N      10  --  D3 D4 E3 C4
+G4  : T -76.41c W -73.34c S  -3.70c ( -2.5 L  -2.3) LCB -108.05c P  1.30% WF   6.4 PSV       8 N       7  --  G4 F3 E3
+C6  : T -88.81c W -81.87c S  -4.93c ( -3.2 L  -2.0) LCB -112.63c P  1.83% WF   6.2 PSV       8 N       6  --  C6 D6 D5 B6 C5
+E8  : T -75.29c W -72.16c S  -3.01c ( -2.2 L  -1.3) LCB -118.60c P  0.66% WF   3.9 PSV       4 N       4  --  E8 C5 G4
+
+2024-03-18 19:39:50+0800: = play E3

@@ -1,0 +1,106 @@
+2024-03-15 15:10:48+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 8
+openclDeviceToUseThread0 = 0
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2024-03-15 15:10:48+0800: GTP Engine starting...
+2024-03-15 15:10:48+0800: KataGo v1.13.0
+2024-03-15 15:10:48+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2024-03-15 15:10:48+0800: Using 8 CPU thread(s) for search
+2024-03-15 15:10:49+0800: nnRandSeed0 = 3799301606820812280
+2024-03-15 15:10:49+0800: After dedups: nnModelFile0 = F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-03-15 15:10:49+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2024-03-15 15:10:49+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-15 15:10:49+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-03-15 15:10:49+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-03-15 15:10:49+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-15 15:10:50+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-03-15 15:10:50+0800: Loaded tuning parameters from: F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-03-15 15:10:50+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-03-15 15:10:50+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-15 15:10:52+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-03-15 15:10:52+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2024-03-15 15:10:52+0800: Initializing board with boardXSize 19 boardYSize 19
+2024-03-15 15:10:52+0800: Loaded config F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\gtp_custom.cfg
+2024-03-15 15:10:52+0800: Loaded model F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin
+2024-03-15 15:10:52+0800: Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-15 15:10:52+0800: GTP ready, beginning main protocol loop
+2024-03-15 15:10:59+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1659790193.sgf 1
+2024-03-15 15:10:59+0800: Changing komi to 5.5
+2024-03-15 15:10:59+0800: GPU 0 finishing, processed 0 rows 0 batches
+2024-03-15 15:10:59+0800: Cleaned up old neural net and bot
+2024-03-15 15:10:59+0800: nnRandSeed0 = 23588343950812298
+2024-03-15 15:10:59+0800: After dedups: nnModelFile0 = F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-03-15 15:10:59+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2024-03-15 15:11:00+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-15 15:11:00+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-03-15 15:11:00+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-03-15 15:11:00+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-03-15 15:11:00+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-03-15 15:11:00+0800: Loaded tuning parameters from: F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-03-15 15:11:00+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-03-15 15:11:00+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-03-15 15:11:02+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-03-15 15:11:02+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2024-03-15 15:11:02+0800: Initializing board with boardXSize 9 boardYSize 9
+2024-03-15 15:11:02+0800: = 
+2024-03-15 15:11:12+0800: Controller: loadsgf C:/Users/KILLLAKILL/AppData/LocalLow/DefaultCompany/yiwu/RecentGames\sgf_1659790193.sgf 1
+2024-03-15 15:11:12+0800: = 
+2024-03-15 15:11:12+0800: Controller: lz-genmove_analyze maxmoves 6
+2024-03-15 15:11:17+0800: MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . @ . . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi5.5
+Time taken: 5
+Root visits: 2613
+New playouts: 2613
+NN rows: 2385
+NN batches: 597
+NN avg batch size: 3.99497
+PV: F6 F4 D5 D3 C3 C4 D4 E3 B4 E8 F7 F8 D7 D8 C7 H7
+Tree:
+: T  44.38c W  45.25c S   0.48c ( +1.8 L  +1.2) N    2613  --  F6 F4 D5 D3 C3 C4 D4
+---Black(^)---
+F6  : T  44.76c W  45.72c S   0.54c ( +1.8 L  +1.3) LCB   41.80c P 21.54% WF 1822.6 PSV    1818 N    2436  --  F6 F4 D5 D3 C3 C4 D4 E3
+E5  : T  43.24c W  42.68c S   0.05c ( +1.5 L  +0.9) LCB   38.94c P  7.17% WF 175.1 PSV     178 N     139  --  E5 G4 F3 G6 C6 F7 G3 C4
+F5  : T  36.15c W  39.79c S  -0.27c ( +1.4 L  +0.9) LCB   24.38c P  0.48% WF  24.5 PSV       2 N      21  --  F5 D5 E3 D7 C4 C5 B4
+G5  : T  20.10c W  22.95c S  -1.47c ( +0.8 L  +0.5) LCB  -56.46c P  0.10% WF   3.2 PSV       0 N       3  --  G5 D5 E5
+G6  : T  15.76c W  16.70c S  -0.94c ( +1.1 L  +0.8) LCB -133.95c P  0.10% WF   2.5 PSV       0 N       2  --  G6 D4
+G7  : T -58.82c W -53.56c S  -5.26c ( -1.0 L  -0.2) LCB -408.82c P  0.00% WF   0.4 PSV       0 N       1  --  G7
+H5  : T -78.72c W -71.54c S  -7.18c ( -2.0 L  -0.9) LCB -428.72c P  0.00% WF   0.1 PSV       0 N       1  --  H5
+H7  : T -106.27c W -93.72c S -12.55c ( -4.3 L  -3.3) LCB -456.27c P  0.00% WF   0.1 PSV       0 N       1  --  H7
+H6  : T -92.67c W -83.71c S  -8.96c ( -2.8 L  -1.6) LCB -442.67c P  0.00% WF   0.1 PSV       0 N       1  --  H6
+J6  : T -118.68c W -99.55c S -19.13c ( -7.8 L  -7.7) LCB -468.68c P  0.00% WF   0.1 PSV       0 N       1  --  J6
+
+2024-03-15 15:11:17+0800: = play F6

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UserScene.unity
+    guid: a997d39578aa21b4ab1e4ff987e95e5c
+  - enabled: 1
+    path: Assets/Scenes/LocalGameScene.unity
+    guid: ddbead97a27ca4e4fa23e845de2898a5
+  - enabled: 1
+    path: Assets/Scenes/OnlineGameScene9.unity
+    guid: 8af91228d73436343b93ba8c014a40fd
+  - enabled: 1
+    path: Assets/Scenes/OnlineGameScene13.unity
+    guid: fa1885eb88a64564eac485d0046ecd4a
+  - enabled: 1
+    path: Assets/Scenes/OnlineGameScene19.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/TikuGameScene.unity
+    guid: 63291508ff86ba34dba6e48140908237
+  - enabled: 1
+    path: Assets/Scenes/QiPuScene.unity
+    guid: d1af46488e0f72446bc8860482866817
+  - enabled: 1
+    path: Assets/Scenes/BaiPuScene19.unity
+    guid: 866ad87cf622297469e3383b59921a9a
+  - enabled: 1
+    path: Assets/Scenes/BaiPuScene13.unity
+    guid: 706ff8318f5580148add9e0e4f9a69c2
+  - enabled: 1
+    path: Assets/Scenes/BaiPuScene9.unity
+    guid: ac319e0ab7e5f3d4eaa54dc9b0224d44
+  - enabled: 1
+    path: Assets/Scenes/PVEScene9.unity
+    guid: 32432ed10deb5d1408edceb9419883b5
+  - enabled: 1
+    path: Assets/Scenes/PVEScene13.unity
+    guid: 84dc63048f07144439d65694f7997f66
+  - enabled: 1
+    path: Assets/Scenes/PVEScene19.unity
+    guid: faa11197ab99059448609ebe86d7821f
+  - enabled: 1
+    path: Assets/Scenes/RecognizeImageScene19.unity
+    guid: 309e041fc1c4abe4dbb57dd772ae929f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

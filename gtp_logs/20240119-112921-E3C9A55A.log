@@ -1,0 +1,53 @@
+2024-01-19 11:29:21+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 8
+openclDeviceToUseThread0 = 0
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2024-01-19 11:29:21+0800: GTP Engine starting...
+2024-01-19 11:29:21+0800: KataGo v1.13.0
+2024-01-19 11:29:21+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2024-01-19 11:29:21+0800: Using 8 CPU thread(s) for search
+2024-01-19 11:29:22+0800: nnRandSeed0 = 6385779424672225933
+2024-01-19 11:29:22+0800: After dedups: nnModelFile0 = F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin useFP16 auto useNHWC auto
+2024-01-19 11:29:22+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2024-01-19 11:29:22+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-01-19 11:29:22+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2024-01-19 11:29:22+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) (score 11000300)
+2024-01-19 11:29:22+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 12.3.99)
+2024-01-19 11:29:23+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 2060 (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32)
+2024-01-19 11:29:23+0800: Loaded tuning parameters from: F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX2060_x19_y19_c384_mv14.txt
+2024-01-19 11:29:23+0800: OpenCL backend thread 0: Device 0 Model version 14
+2024-01-19 11:29:23+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-01-19 11:29:25+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2024-01-19 11:29:25+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2024-01-19 11:29:25+0800: Initializing board with boardXSize 19 boardYSize 19
+2024-01-19 11:29:25+0800: Loaded config F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\gtp_custom.cfg
+2024-01-19 11:29:25+0800: Loaded model F:\homework\毕业设计\katago-v1.13.0-opencl-windows-x64\model.bin
+2024-01-19 11:29:25+0800: Model name: kata1-b18c384nbt-s7192213760-d3579182099
+2024-01-19 11:29:25+0800: GTP ready, beginning main protocol loop
+2024-01-19 11:29:25+0800: Controller: loadsgf F:/unity_project//Assets/StreamingAssets/LocalMatchPath/match.sgf
+2024-01-19 11:29:25+0800: ? Could not load sgf: Could not open file F:/unity_project//Assets/StreamingAssets/LocalMatchPath/match.sgf - does not exist or invalid permissions?
+2024-01-19 11:29:25+0800: Controller: final_score
+2024-01-19 11:29:27+0800: = W+0.5
